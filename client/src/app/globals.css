@@ -1,0 +1,21 @@
+:root {
+  --primary: #ff6464;
+  --secondry: #00a8cc;
+  --dark: #21243d;
+  --light: #8695a4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  color: #21243d;
+}
+
+button {
+  cursor: pointer;
+}

@@ -1,0 +1,16 @@
+.button {
+  width: 30px;
+  height: 18px;
+  background: none;
+  border: none;
+  .img {
+    width: auto;
+    height: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .button {
+    display: none;
+  }
+}

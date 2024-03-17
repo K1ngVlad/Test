@@ -1,0 +1,38 @@
+.works {
+  padding: 0 18px 150px 18px;
+  .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .title {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 60px;
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .works {
+    padding: 0 71px 150px 71px;
+  }
+}
+
+@media (min-width: 992px) {
+  .works {
+    padding: 15px 0 150px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .container {
+      width: 829px;
+      .title {
+        font-size: 22px;
+      }
+      .worksBlock {
+        margin-top: 12px;
+      }
+    }
+  }
+}

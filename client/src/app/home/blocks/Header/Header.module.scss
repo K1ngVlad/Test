@@ -1,0 +1,24 @@
+.header {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 18px;
+
+  .list {
+    display: none;
+    list-style-type: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .header {
+    height: 70px;
+    padding: 0px 60px;
+    align-items: flex-end;
+
+    .list {
+      display: flex;
+    }
+  }
+}

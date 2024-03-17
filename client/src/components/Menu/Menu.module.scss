@@ -1,0 +1,24 @@
+.menu {
+  position: fixed;
+  width: 100%;
+  height: 400px;
+  background-color: var(--dark);
+  z-index: 10;
+  .menuNav {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 50px 30px;
+    .list {
+      list-style-type: none;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .menu {
+    display: none;
+  }
+}

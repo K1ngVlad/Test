@@ -1,0 +1,14 @@
+.ListElement {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+
+  & + & {
+    margin-left: 33px;
+  }
+
+  .link {
+    color: black;
+    text-decoration: none;
+  }
+}

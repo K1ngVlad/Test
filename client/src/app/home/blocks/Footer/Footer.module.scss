@@ -1,0 +1,34 @@
+.footer {
+  width: 100%;
+  height: 182px;
+  padding: 51px 32px 54px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  .list {
+    list-style-type: none;
+    max-width: 273px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: var(--dark);
+  }
+}
+
+@media (min-width: 375px) {
+  .footer {
+    padding: 51px 71px 54px 71px;
+    .list {
+      width: 273px;
+    }
+  }
+}
